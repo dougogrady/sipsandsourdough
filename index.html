@@ -176,7 +176,7 @@
   var track = document.querySelector('.quotes');
   if (!track) return;
   var prev = document.querySelector('.car-btn.prev'), next = document.querySelector('.car-btn.next');
-  function step() { var c = track.querySelector('figure'); return c ? c.offsetWidth + 24 : track.clientWidth; }
+  function step() { return track.clientWidth + 24; }
   function atEnd() { return track.scrollLeft + track.clientWidth >= track.scrollWidth - 4; }
   function go(dir) {
     if (dir > 0 && atEnd()) track.scrollTo({ left: 0, behavior: 'smooth' });
