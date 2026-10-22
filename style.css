@@ -177,3 +177,4 @@ h3 { font-size: 23px; font-weight: 700; margin-bottom: 6px; }
   .hero { padding-top: 0; }
   .hero-photo { margin-inline: -16px; }
 }
+.quotes .stars { color: var(--copper); font-size: 22px; letter-spacing: 3px; line-height: 1; margin-bottom: 12px; }
