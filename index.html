@@ -188,7 +188,7 @@
 
   // Gentle auto-advance; pauses while someone is reading or touching it
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
-  var paused = false, timer = setInterval(function () { if (!paused && !document.hidden) go(1); }, 6000);
+  var paused = false, timer = setInterval(function () { if (!paused && !document.hidden) go(1); }, 15000);
   var box = track.parentNode;
   ['mouseenter', 'focusin', 'touchstart'].forEach(function (e) { box.addEventListener(e, function () { paused = true; }, { passive: true }); });
   ['mouseleave', 'focusout'].forEach(function (e) { box.addEventListener(e, function () { paused = false; }); });
