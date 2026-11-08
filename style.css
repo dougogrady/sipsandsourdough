@@ -9,7 +9,8 @@
   --copper: #b87d4b;
   --sage: #8a9a7b;
   --sage-deep: #5f7254;
-  --serif: "Playfair Display", Georgia, serif;
+  --serif: "Cormorant Garamond", Georgia, serif;
+  --ink: #161210;
   --body: "Cormorant Garamond", Georgia, serif;
   --sans: "Lato", system-ui, sans-serif;
 }
@@ -21,9 +22,9 @@ a { color: var(--terracotta); }
 .wrap { width: min(1120px, 100% - 32px); margin-inline: auto; }
 
 h1, h2, h3 { font-family: var(--serif); line-height: 1.1; color: var(--choc); }
-h1 { font-size: clamp(38px, 6vw, 66px); font-weight: 800; letter-spacing: -.5px; }
-h2 { font-size: clamp(32px, 4.4vw, 46px); font-weight: 700; margin-bottom: 28px; }
-h3 { font-size: 23px; font-weight: 700; margin-bottom: 6px; }
+h1 { font-size: clamp(44px, 7vw, 78px); font-weight: 400; font-style: italic; letter-spacing: 0; line-height: 1.05; }
+h2 { font-size: clamp(38px, 5vw, 54px); font-weight: 400; font-style: italic; margin-bottom: 28px; }
+h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; }
 .center { text-align: center; }
 .kicker { font-family: var(--sans); font-weight: 700; font-size: 13px; letter-spacing: .18em; text-transform: uppercase; color: var(--sage-deep); margin-bottom: 8px; }
 .script { font-family: "Parisienne", cursive; font-size: clamp(30px, 4vw, 40px); color: var(--terracotta); line-height: 1.2; margin-bottom: 6px; }
@@ -46,7 +47,7 @@ h3 { font-size: 23px; font-weight: 700; margin-bottom: 6px; }
   linear-gradient(115deg, #f8f1e6 0%, #f3e8d8 55%, #ead9c2 100%); padding: 56px 0 72px; }
 .hero-in { display: grid; grid-template-columns: 1.05fr 1fr; gap: 56px; align-items: center; }
 .hero h1 { margin-bottom: 20px; }
-.lede { font-size: 24px; font-weight: 500; max-width: 34ch; margin-bottom: 30px; }
+.lede { font-size: 24px; font-weight: 400; color: var(--ink); max-width: 34ch; margin-bottom: 30px; }
 .hero-cta { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
 .price-chip { font-family: var(--sans); font-size: 15px; color: var(--choc-soft); letter-spacing: .04em; }
 .price-chip b { font-family: var(--serif); font-size: 26px; color: var(--terracotta); margin-right: 4px; }
@@ -179,3 +180,5 @@ h3 { font-size: 23px; font-weight: 700; margin-bottom: 6px; }
 }
 .quotes .stars { color: var(--copper); font-size: 22px; letter-spacing: 3px; line-height: 1; margin-bottom: 12px; }
 .carousel .quotes blockquote { flex: 0 0 auto; }
+
+.script.serving { color: var(--ink); }
