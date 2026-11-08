@@ -22,7 +22,7 @@ a { color: var(--terracotta); }
 .wrap { width: min(1120px, 100% - 32px); margin-inline: auto; }
 
 h1, h2, h3 { font-family: var(--serif); line-height: 1.1; color: var(--choc); }
-h1 { font-family: "Fraunces", Georgia, serif; font-size: clamp(38px, 6vw, 66px); font-weight: 600; font-style: normal; letter-spacing: 0; }
+h1 { font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(44px, 6.9vw, 76px); font-weight: 700; font-style: italic; letter-spacing: 0; }
 h2 { font-size: clamp(38px, 5vw, 54px); font-weight: 400; font-style: italic; margin-bottom: 28px; }
 h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; }
 .center { text-align: center; }
