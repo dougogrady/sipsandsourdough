@@ -280,3 +280,7 @@ h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; 
 .social a { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; background: rgba(247,240,228,.1); transition: background .2s; }
 .social a:hover { background: rgba(247,240,228,.22); }
 .social svg { width: 20px; height: 20px; fill: var(--cream); }
+.hero-cta.three { flex-wrap: wrap; max-width: 560px; }
+.nav a { padding: 10px 12px; }
+@media (max-width: 860px) { .nav a { font-size: 11px; letter-spacing: .06em; padding: 8px 8px; } .nav { gap: 2px; } }
+/* .hero-cta.three.four marker */
