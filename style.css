@@ -274,3 +274,5 @@ h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; 
 .quote-checks { margin-top: 26px; }
 .quote-checks li { font-size: 21px; }
 @media (max-width: 860px) { .page-hero.text-only { padding: 48px 0 60px; } .hero-points { font-size: 12px; } }
+.formats.two { grid-template-columns: repeat(2, 1fr); max-width: 760px; margin-inline: auto; }
+@media (max-width: 860px) { .formats.two { grid-template-columns: 1fr; } }
