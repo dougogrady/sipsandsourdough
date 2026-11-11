@@ -293,3 +293,4 @@ h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; 
 .faq .ans p { margin-top: 10px; color: var(--choc-soft); }
 .faq .ans a { color: var(--terracotta); }
 .take .faq details { border-color: rgba(184,125,75,.4); }
+@media (max-width: 860px) { .nav a { font-size: 10.5px; letter-spacing: .05em; padding: 8px 6px; } }
