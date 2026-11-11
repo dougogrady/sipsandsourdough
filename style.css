@@ -288,3 +288,8 @@ h3 { font-size: 27px; font-weight: 600; font-style: italic; margin-bottom: 6px; 
 .review-cta p { color: var(--cream); font-size: 21px; font-style: italic; margin-bottom: 14px; }
 .btn-light { background: var(--cream); color: var(--choc); box-shadow: 0 10px 22px rgba(0,0,0,.18); }
 .btn-light:hover { background: #fff; color: var(--choc); }
+.faq-jump { margin-top: 22px; font-family: var(--sans); font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.faq-jump a { text-decoration: none; color: var(--terracotta); }
+.faq .ans p { margin-top: 10px; color: var(--choc-soft); }
+.faq .ans a { color: var(--terracotta); }
+.take .faq details { border-color: rgba(184,125,75,.4); }
